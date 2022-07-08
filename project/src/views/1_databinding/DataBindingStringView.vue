@@ -1,18 +1,16 @@
 <template>
-    
+    <div>
+        <h2>Hello {{userName}}</h2>
+    </div>
 </template>
 
 <script>
 export default {
-    name : 'DataBinding',
+    name: 'DataBinding',
     setup() {
         return {
-            userName : 'bkboy'
+            userName: 'bkboy'
         }
     }
 }
 </script>
-
-<style scoped>
-/* 컴포넌트에 한정되는 css  */
-</style>
