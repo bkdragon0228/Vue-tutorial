@@ -1,6 +1,7 @@
 <template>
     <div>
         <h2>Hello {{userName}}</h2>
+        <p>{{msg}}</p>
     </div>
 </template>
 
@@ -9,7 +10,8 @@ export default {
     name: 'DataBinding',
     setup() {
         return {
-            userName: 'bkboy'
+            userName: 'bkboy',
+            msg: 'welcome bkboy'
         }
     }
 }

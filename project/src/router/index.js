@@ -23,6 +23,14 @@ const routes = [
       import(
         /* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/1_databinding/DataBindingStringView'
       )
+  },
+  {
+    path: '/databinding/html',
+    name: 'DataBindingHtml',
+    component: () =>
+      import(
+        /* webpackChunkName: "databinding", webpackPrefetch: true */ '../views/1_databinding/DataBindingHtml'
+      )
   }
 ]
 
