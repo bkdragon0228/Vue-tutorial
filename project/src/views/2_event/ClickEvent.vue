@@ -6,16 +6,17 @@
 </template>
 
 <script>
+import { ref } from 'vue'
 export default {
     name: 'ClickEvent',
-    data() {
-        return {
-            counter: 1
+    setup() {
+        const counter = ref(1)
+        const increase = () => {
+            counter.value++
         }
-    },
-    methods: {
-        increase() {
-            this.counter++
+        return {
+            counter,
+            increase
         }
     }
 
