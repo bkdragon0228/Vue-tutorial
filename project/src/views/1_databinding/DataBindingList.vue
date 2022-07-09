@@ -15,7 +15,7 @@
                         <th>제품명</th>
                         <th>제품가격</th>
                         <th>주문수량</th>
-                        <th>합겨</th>
+                        <th>합계</th>
                     </tr>
                 </thead>
                 <tbody>
